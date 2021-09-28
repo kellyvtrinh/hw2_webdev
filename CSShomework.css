@@ -1,0 +1,166 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.sixvert {
+  height: 16.67%
+}
+
+.ninevert {
+  height: 11.1%
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+
+.eagle {
+  display: flex;
+  position: relative;
+  top: 28%;
+  left: 5%;
+  height: 45%
+}
+
+.greece_cross {
+  display: flex;
+  position: relative;
+  width: 30%;
+  height: 100%;
+}
+
+.greece_bars {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 100%;
+}
+
+.blue_bar {
+  display: inline-flex;
+  position: relative;
+  height: 100%;
+  width: 40%;
+}
+
+.white_bar {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 20%;
+
+}
+
+
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.darkblue {
+  background-color: mediumblue;
+}
+
+.lightblue {
+  background-color: deepskyblue;
+}
+
+.goldenrod {
+  background-color: goldenrod;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.lightblue {
+  background-color: lightskyblue;
+}
